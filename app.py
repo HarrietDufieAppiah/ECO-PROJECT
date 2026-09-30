@@ -310,7 +310,7 @@ if "selected_scenario" not in st.session_state:
 def render_instructions():
     st.title("Instructions")
     st.write(
-        "This app helps you figure out the best way to treat a food-waste "
+        "This tool helps you figure out the best way to treat a food-waste "
         "stream: the option that costs the least, pollutes the least, or "
         "strikes a balance between the two. Behind the scenes, it runs an "
         "optimization model that tests every combination of treatment technologies "
